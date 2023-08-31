@@ -24,6 +24,9 @@ class DeluxeRoom(StandardRoom):
         return f"{super().__str__()} Balcony: {self.has_balcony}"
 
 
+
+
+
 def show_room(rooms):
     for room in rooms:
         print(room)
